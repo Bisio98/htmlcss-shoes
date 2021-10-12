@@ -4,3 +4,19 @@
     box-sizing: border-box;
 }
 
+.box{
+    height: 100vh;
+    width: 100vw;
+}
+
+.first{
+    background-color: #FF0000;
+}
+
+.second{
+    background-color:#008000 ;
+}
+
+.third{
+    background-color: #FFFF00;
+}
