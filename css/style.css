@@ -7,10 +7,29 @@
 .box{
     height: 100vh;
     width: 100vw;
+    position: relative;
+}
+
+.box h3{
+    font-size: 70px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.cont{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 40%;
 }
 
 .first{
     background-color: #FF0000;
+}
+
+.first h3,.second h3{
+    color: #FFFF00;
 }
 
 .second{
@@ -19,4 +38,8 @@
 
 .third{
     background-color: #FFFF00;
+}
+
+.third h3{
+    color: #008000;
 }
